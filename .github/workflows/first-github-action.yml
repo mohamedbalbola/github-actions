@@ -6,5 +6,4 @@ jobs:
     steps: 
       - name: print something 
         run:  echo "printing something to check the job "
-      - name: say exit
-        run: echo "exit the pipeline"
+              echo "test multiple"
