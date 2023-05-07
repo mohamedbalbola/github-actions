@@ -1,0 +1,10 @@
+name: first workflow 
+on: [workflow_dispatch]
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: print something 
+        run:  echo "printing something to check the job "
+      - name: say exit
+        run: echo "exit the pipeline"
